@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="543.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="add_user.AddUserController">
+   <children>
+      <Label layoutX="232.0" layoutY="25.0" text="Add User" textFill="#f806f0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="errorMessage" layoutX="227.0" layoutY="511.0" prefHeight="17.0" prefWidth="137.0" />
+      <Label layoutX="125.0" layoutY="398.0" text="RePassword">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="129.0" layoutY="209.0" text="Gender">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="129.0" layoutY="351.0" text="Password">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="138.0" layoutY="295.0" text="Email">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="145.0" layoutY="257.0" text="Age">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="124.0" layoutY="122.0" text="Last Name">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="113.0" layoutY="76.0" text="First Name">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="fname" layoutX="308.0" layoutY="78.0" prefHeight="25.0" prefWidth="195.0" />
+      <TextField fx:id="gender" layoutX="312.0" layoutY="211.0" prefHeight="25.0" prefWidth="188.0" />
+      <TextField fx:id="age" layoutX="308.0" layoutY="259.0" prefHeight="25.0" prefWidth="195.0" />
+      <TextField fx:id="email" layoutX="312.0" layoutY="297.0" prefHeight="25.0" prefWidth="188.0" />
+      <TextField fx:id="password" layoutX="315.0" layoutY="353.0" prefHeight="25.0" prefWidth="188.0" />
+      <TextField fx:id="rePassword" layoutX="315.0" layoutY="400.0" prefHeight="25.0" prefWidth="188.0" />
+      <TextField fx:id="lname" layoutX="308.0" layoutY="124.0" prefHeight="25.0" prefWidth="195.0" />
+      <Button layoutX="142.0" layoutY="461.0" mnemonicParsing="false" onAction="#backButtons" prefHeight="30.0" prefWidth="95.0" text="Back" textFill="#900aef">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="submitAddUser" layoutX="334.0" layoutY="453.0" mnemonicParsing="false" onAction="#submitUserClicked" prefHeight="43.0" prefWidth="143.0" text="Submit" textFill="#8b05e4">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <TextField fx:id="loginName" layoutX="308.0" layoutY="167.0" prefHeight="25.0" prefWidth="195.0" />
+      <Label layoutX="117.0" layoutY="165.0" text="Login Name">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
